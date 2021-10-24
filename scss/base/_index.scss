@@ -1,0 +1,43 @@
+@import "vars";
+@import "header";
+@import "gallery";
+@import "services";
+@import "about";
+@import "start";
+@import "testimonial";
+@import "contact";
+@import "footer";
+@import "slider";
+
+@if variable_exists(google-font) {
+  @import url($google-font);
+}
+
+@import "normalize";
+@import "mixins/flexmixins";
+@import "mixins/utilites";
+
+// @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Open+Sans:wght@400;700&family=Roboto+Mono:wght@500&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+h1,h2,h3{
+  margin: 0;
+}
+
+.container{
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+  padding: 0 $mobilePadding;
+}
+body._lock {
+	overflow: hidden;
+}
+// .header__container{
+//   max-width: 1280px;
+//   width: 100%;
+//   margin: auto;
+//   padding: $mobilePadding;
+// }
