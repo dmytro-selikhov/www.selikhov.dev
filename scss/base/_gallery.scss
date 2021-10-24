@@ -1,0 +1,73 @@
+
+.gallery{
+  margin-bottom: 40px;
+    &__title{
+      padding-top: 86px;
+      font-family: $openSans;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+    &_bold{
+        font-family: $mulish;
+        font-weight: 700;
+      }
+    &__text{
+      font-family: $robotoMono;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    &__btn{
+      display: inline-block;
+      padding: 15px;
+      color: $white;
+      background-color: $black;
+      font-family: $robotoMono;
+      font-weight: 500;
+      font-size: 1rem;
+      margin-bottom: 35px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    &__btn:hover{
+      background: $pink;
+    }
+
+}
+.pink{
+  color: $pink;
+}
+.gallery-box{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      justify-items: center;
+      align-items: center;
+      grid-gap: 20px;
+
+    &__item{
+      object-fit: cover;
+    }
+    &__img{
+      max-width: 350px;
+      height: 100%;
+      max-width: 100%;
+    }
+}
+.title{
+  font-family: $mulish;
+  font-weight: 700;
+  font-size: 2rem;
+  color: $black;
+  text-align: center;
+}
+.text{
+  font-family:$robotoMono;
+  font-weight: 500;
+  font-size: 1rem;
+  color: $black;
+  text-align: center;
+}
+a.pink{
+  cursor: pointer;
+}

@@ -1,0 +1,77 @@
+.title{
+  font-family: $mulish;
+  font-weight: 700;
+  font-size: 2rem;
+  color: $black;
+  text-align: center;
+}
+.text{
+  font-family:$robotoMono;
+  font-weight: 500;
+  font-size: 1rem;
+  color: $black;
+  text-align: center;
+}
+
+.services-box{
+  display: grid;
+}
+.services-item{
+  &__title{
+    font-family: &mulish;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: $black;
+    margin: 10px 0 10px 0;
+  }
+  &__cover{
+    object-fit: cover;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  &__img{
+    width: 40px;
+    height: 100%;
+    max-width: 100%;
+  }
+  &__description{
+    font-family: $robotoMono;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color:&black;
+    line-height: 1.4rem;
+    margin-bottom: 25px;
+  }  
+}
+
+
+
+
+// .services-box{
+//   display: grid;
+// }
+// .services-title{
+//   font-family: &mulish;
+//   font-weight: 700;
+//   font-size: 1.1rem;
+//   color: $black;
+//   margin: 10px 0 10px 0;
+// }
+// .services-cover{
+//   object-fit: cover;
+//   text-align: center;
+//   margin-bottom: 10px;
+// }
+// .services-img{
+//   width: 40px;
+//   height: 100%;
+//   max-width: 100%;
+// }
+// .services-description{
+//   font-family: $robotoMono;
+//   font-weight: 500;
+//   font-size: 0.8rem;
+//   color:&black;
+//   line-height: 1.4rem;
+//   margin-bottom: 25px;
+// }
