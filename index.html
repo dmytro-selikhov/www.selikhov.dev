@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>selikhov</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+ 
+  <header class="header">
+        <div class="header__container">
+        <div class="header__logo">
+          <a class="header__link" href="#"><img class="logo" src="i/logo.svg" alt="logo"></a>
+        </div>
+
+        <div class="header__menu menu">
+          <div class="menu__icon">
+            <span></span>
+        </div>
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li><a data-goto=".gallery" href="#" class="menu__link">Recent Works</a></li>
+                <li><a data-goto=".services" href="#" class="menu__link">Services</a></li>
+                <li><a data-goto=".about" href="#" class="menu__link">About</a>
+                 <span class="menu__arrow"></span>
+                  <ul class="menu__sub-list">
+                    <li><a  href="#bio" class="menu__sub-link">Bio</a></li>
+                    <li><a id="menu__sub-sm" href="#work-sm" class="menu__sub-link">Work Experience</a></li>
+                    <li><a id="menu__sub-lg" href="#work-lg" class="menu__sub-link">Work Experience</a></li>
+                  </ul>
+                </li>
+                <li><a data-goto=".testimonials" href="#" class="menu__link">Testimonials</a></li>
+                <li><a data-goto=".contact" href="#" class="menu__link">Contact</a></li>
+              </ul>
+            </nav>
+  
+       </div>
+      </div>
+  </header>
+
+
+  <main class="main">
+
+    <div class="container">
+   
+      <section class="gallery">
+        <h1 class="gallery__title">Hey! I’m <span class="gallery__title_bold">Selikhov<span class="pink">.</span></h1>
+      </span>
+      <p class="gallery__text">Front-end developer, who works with technologies such as HTML5, CSS3, SASS, Git and
+        Javascript!</p>
+      <a href="#contact"  class="gallery__btn">Don't be shy! Contact me!</a>
+      
+        <h2 class="title">My Recent Works</h2>
+        <p class="text">Here are a few projects I've worked on recently. Want to see more? <a href="mailto:dmytro.selikhov@gmail.com"
+            class="pink">Email me</a>.</p>
+        <div class="gallery-box">
+
+          <div class="gallery-box__item">
+            <a href="#" class="gallery-box__link"><img class="gallery-box__img" src="i/gallery/img_1.jpg" alt="descr"></a>
+          </div>
+
+          <div class="gallery-boxitem">
+            <a href="#" class="gallery-box__link"><img class="gallery-box__img" src="i/gallery/img_2.jpg" alt="descr"></a>
+          </div>
+
+          <div class="gallery-boxitem">
+            <a href="#" class="gallery-box__link"><img class="gallery-box__img" src="i/gallery/img_3.jpg" alt="descr"></a>
+          </div>
+
+          <div class="gallery-boxitem">
+            <a href="#" class="gallery-box__link"><img class="gallery-box__img" src="i/gallery/img_4.jpg" alt="descr"></a>
+          </div>
+
+          <div class="gallery-boxitem">
+            <a href="#" class="gallery-box__link"><img class="gallery-box__img" src="i/gallery/img_5.jpg" alt="descr"></a>
+          </div>
+
+          <div class="gallery-boxitem">
+            <a href="#" class="gallery-box__link"><img class="gallery-box__img" src="i/gallery/img_6.jpg" alt="descr"></a>
+          </div>
+
+          <div class="gallery-boxitem">
+            <a href="#" class="gallery-box__link"><img class="gallery-box__img" src="i/gallery/img_7.jpg" alt="descr"></a>
+          </div>
+
+          <div class="gallery-boxitem">
+            <a href="#" class="gallery-box__link"><img class="gallery-box__img" src="i/gallery/img_8.jpg" alt="descr"></a>
+          </div>
+
+          <div class="gallery-boxitem">
+            <a href="#" class="gallery-box__link"><img class="gallery-box__img" src="i/gallery/img_9.jpg" alt="descr"></a>
+          </div>
+
+          <div class="gallery-boxitem">
+            <a href="#" class="gallery-box__link"><img class="gallery-box__img" src="i/gallery/img_10.jpg" alt="descr"></a>
+          </div>
+
+          <div class="gallery-boxitem">
+            <a href="#" class="gallery-box__link"><img class="gallery-box__img" src="i/gallery/img_11.jpg" alt="descr"></a>
+          </div>
+
+          <div class="gallery-boxitem">
+            <a href="#" class="gallery-box__link"><img class="gallery-box__img" src="i/gallery/img_12.jpg" alt="descr"></a>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="services">
+        <h2 class="title">Services</h2>
+        <p class="text">The skills to pay the bills.</p>
+
+        <div class="services-box">
+
+          <div class="services-item designer">
+            <div class="services-item__cover">
+              <img class="services-item__img" src="i/icons/designer.svg" alt="designer icon">
+            </div>
+            <p class="services-item__title">Designer</p>
+            <p class="services-item__description">I value simple content structure, clean design patterns, and thoughtful
+              interactions.</p>
+          </div>
+
+          <div class="services__item developer">
+            <div class="services-item__cover">
+              <img class="services-item__img" src="i/icons/developer.svg" alt="developer icon">
+            </div>
+            <p class="services-item__title">Front-end Developer</p>
+            <p class="services-item__description">I like to code things from scratch, and enjoy bringing ideas to life in the
+              browser.</p>
+          </div>
+
+          <div class="services__item things">
+            <p class="services-item__title">Things I enjoy designing:</p>
+            <p class="services-item__description">I like to code things from scratch, and enjoy bringing ideas to life in the
+              browser.</p>
+          </div>
+
+          <div class="services__item things">
+            <p class="services-item__title">Languages I speak:</p>
+            <p class="services-item__description">HTML5, Sass, Java Script, CSS3, Scss</p>
+          </div>
+
+          <div class="services__item tools">
+            <p class="services-item__title">Design Tools <span class="pink">&</span> Dev Tools:</p>
+            <p class="services-item__description">Photoshop, VSCode, Figma, Github, Illustrator, Terminal</p>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="about">
+        <h2 class="title">About</h2>
+        <p class="text">A long time ago, in a galaxy far, far away… </p>
+
+        <div class="about-box">
+          <div class="about-info">
+            <div class="about-info__cover">
+              <div class="about-info__years">
+                <div class="about-info__title">Experience check</div>
+                <a class="about-info__link about-info__links" href="https://github.com/dmytro-selikhov"
+                  target="_blank">See github</a>
+                <a class="about-info__file about-info__links" href="file/CV_Dmytro_Selikhov_Front_End_Developer.docx">Download my CV</a>
+              </div>
+              <img class="about-info__img" src="i/selikhov.jpg" alt="My photo">
+            </div>
+          </div>
+
+          <div class="bio-cover">
+            <div id="bio" class="bio">
+              <h3 class="bio-title">Bio</h3>
+              <p class="bio-one">Oh! what am I talking about?</p>
+              <p class="bio-two">My name is Dmytro Selikhov<span class="pink">.</span> I am a web developer! I live in
+                the wonderful city of Severodonetsk, which is located in the east of our country.</p>
+              <p class="bio-three">I will help you find the best solution for your business, give you tea and treat with
+                cookies!<span class="pink">;-)</span></p>
+              <p class="bio-four">I will be glad to help you in the development of your logo, website or any other task!
+              </p>
+            </div>
+            <div id="work-lg" class="work-lg">
+              <h3 class="work-title">Work Experience</h3>
+              <div class="work-items">
+                <div class="work-item">
+                  <p class="work-item__title">Princess Cruises</p>
+                  <p class="work-item__year">2017 - 2020</p>
+                </div>
+    
+                <div class="work-item">
+                  <p class="work-item__title">Ikura.ua</p>
+                  <p class="work-item__year">2020 - 2021 </p>
+                </div>
+    
+                <div class="work-item">
+                  <p class="work-item__title">Freelancer</p>
+                  <p class="work-item__year">2010 - until now <span class="pink">...</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div id="work-sm" class="work-sm">
+          <h3 class="work-title">Work Experience</h3>
+          <div class="work-items">
+            <div class="work-item">
+              <p class="work-item__title">Princess Cruises</p>
+              <p class="work-item__year">2017 - 2020</p>
+            </div>
+
+            <div class="work-item">
+              <p class="work-item__title">Ikura.ua</p>
+              <p class="work-item__year">2020 - 2021 </p>
+            </div>
+
+            <div class="work-item">
+              <p class="work-item__title">Freelancer</p>
+              <p class="work-item__year">2010 - until now <span class="pink">...</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="start">
+        <p class="start__title">Start a project</p>
+        <a class="start__text" href="mailto:dmytro.selikhov@gmail.com">dmytro.selikhov@gmail.com</a>
+        <a href="#contact" class="start__btn">Let`s do this</a>
+      </section>
+
+      <section class="testimonials">
+        <h2 class="title">Testimonials</h2>
+        <p class="text">What clients say...</p>
+
+        <div class="slider">
+
+        <div class="testimonial">
+          <div class="testimonial__cover">
+            <img class="testimonial__img" src="i/photos/photo_1.png" alt="photo">
+          </div>
+          <div class="testimonial__info">
+            <p class="testimonial__name">Anton Kocherga</p>
+            <p class="testimonial__position">Business Owner</p>
+          </div>
+          <p class="testimonial__text">“Dmytro is a clear communicator with the tenacity and confidence to really dig in
+            to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</p>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial__cover">
+            <img class="testimonial__img" src="i/photos/photo_2.png" alt="photo">
+          </div>
+          <div class="testimonial__info">
+            <p class="testimonial__name">Ksenia Momot</p>
+            <p class="testimonial__position">Business Owner</p>
+          </div>
+          <p class="testimonial__text">“Dmytro was a real pleasure to work with and we look forward to working with him
+            again.”</p>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial__cover">
+            <img class="testimonial__img" src="i/photos/photo_3.png" alt="photo">
+          </div>
+          <div class="testimonial__info">
+            <p class="testimonial__name">Aliens</p>
+            <p class="testimonial__position">Buka chaka chacka buka</p>
+          </div>
+          <p class="testimonial__text">“Проект по внедрению котиков на планету Земля... Очень довольны результатом”</p>
+        </div>
+
+
+
+        <div class="testimonial">
+          <div class="testimonial__cover">
+            <img class="testimonial__img" src="i/photos/photo_4.png" alt="photo">
+          </div>
+          <div class="testimonial__info">
+            <p class="testimonial__name">Arthur Green</p>
+            <p class="testimonial__position">Business Owner</p>
+          </div>
+          <p class="testimonial__text">“Dmytro is a clear communicator with the tenacity and confidence to really dig in
+            to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</p>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial__cover">
+            <img class="testimonial__img" src="i/photos/photo_5.png" alt="photo">
+          </div>
+          <div class="testimonial__info">
+            <p class="testimonial__name">Catherine Selikhova</p>
+            <p class="testimonial__position">Business Owner</p>
+          </div>
+          <p class="testimonial__text">“Dmytro was a real pleasure to work with and we look forward to working with him
+            again.”</p>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial__cover">
+            <img class="testimonial__img" src="i/photos/photo_6.png" alt="photo">
+          </div>
+          <div class="testimonial__info">
+            <p class="testimonial__name">Nikita Il`in</p>
+            <p class="testimonial__position">Business Owner</p>
+          </div>
+          <p class="testimonial__text">“Dmytro is a clear communicator with the tenacity and confidence to really dig in
+            to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</p>
+        </div>
+
+      </div>
+
+      </section>
+
+      <section id="contact" class="contact">
+        <h2 class="title">Contact</h2>
+        <p class="text">Available for work. Get in touch</p>
+        <div class="contact-box">
+
+            <div class="form">
+              <form action="#" id="form" class="form__body">
+                <div class="form__item">
+                  <label for="formName" class="form__label">Name:</label>
+                  <input id="formName" type="text" name="name" class="form__input _req" placeholder="First name">
+                </div>
+
+                <div class="form__item">
+                  <label for="formEmail" class="form__label">E-mail*:</label>
+                  <input id="formEmail" type="text" name="email" class="form__input _req _email" placeholder="Email address">
+                </div>
+
+                <div class="form__item">
+                  <label for="formMessage" class="form__label">Message:</label>
+                  <textarea name="message" id="formMessage" class="form__input" placeholder="Write your message..."></textarea>
+                </div>
+
+                <button type="submit" class="form__button">Отправить</button>
+              </form>
+            </div>
+          
+          <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.372306748453!2d38.51236601562244!3d48.94639627929626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4120109058c1e3c7%3A0x32b12132ce4abe61!2z0YPQuy4g0JPQsNCz0LDRgNC40L3QsCwgNzgsINCh0LXQstC10YDQvtC00L7QvdC10YbQuiwg0JvRg9Cz0LDQvdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA5MzQwMA!5e0!3m2!1sru!2sua!4v1634740495067!5m2!1sru!2sua" max-width="1200" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-info">
+        <p class="footer-copy">Copyright ©2021 All rights reserved | Made with <img class="footer-img" src="i/heart.svg"
+            alt="love"> by <a class="footer-link" href="#">Selikhov</a><span class="pink">.</span></p>
+      </div>
+      <div class="footer-social">
+        <p class="footer-text">Connect</p>
+        <a class="facebook-link footer-link" href="https://www.facebook.com/selikhov.dmytro/" target="_blank"><img
+            class="facebook-img" src="i/facebook.svg" alt="facebook"></a>
+        <a class="linkedin-link footer-link" href="https://www.linkedin.com/in/dmytro-selikhov/" target="_blank"><img
+              class="linkedin-img" src="i/linkedin.svg" alt="linkedin"></a>
+        <a class="githab-link footer-link" href="https://github.com/dmytro-selikhov" target="_blank"><img
+            class="githab-img" src="i/git.svg" alt="githab"></a>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="js/validation.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/top_btn.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!--  JavaScript here -->
+  <script src="js/slick.min.js"></script>
+  <!-- <script src="js/app.js"></script> -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
