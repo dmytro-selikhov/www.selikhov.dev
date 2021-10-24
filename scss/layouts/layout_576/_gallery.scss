@@ -1,0 +1,16 @@
+
+.gallery-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 20px;
+  &__item{
+    object-fit: cover;
+  }
+  &__img{
+    max-width: 350px;
+    height: 100%;
+    max-width: 100%;
+  }
+}

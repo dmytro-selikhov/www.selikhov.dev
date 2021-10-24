@@ -1,0 +1,38 @@
+
+.about-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+  grid-gap: 20px;
+
+}
+.about-info{
+  align-self: start;
+  &__cover{
+    width: 100%;
+    height: 100%;
+    max-width: 575px;
+  }
+  &__img{
+    width: 100%;
+    height: 100%;
+    max-width: 575px;
+  }
+}
+.work-lg{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.work-sm{
+  display: none;
+}
+#menu__sub-sm{
+  display: none;
+}
+#menu__sub-lg{
+  display: block;
+}
+.work-items{
+  display: grid;
+  grid-template-columns: 1fr;
+}

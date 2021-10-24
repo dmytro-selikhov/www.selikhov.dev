@@ -1,0 +1,25 @@
+
+.about-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+  grid-gap: 20px;
+
+}
+.about-info{
+  align-self: start;
+  &__cover{
+    width: 300px;
+    height: 100%;
+    max-width: 100%;
+  }
+  &__img{
+    width: 300px;
+    height: 100%;
+    max-width: 100%;
+  }
+}
+.work-items{
+  display: flex;
+  justify-content: space-between;
+}
