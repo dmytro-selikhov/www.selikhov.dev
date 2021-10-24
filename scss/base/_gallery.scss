@@ -47,11 +47,35 @@
 
     &__item{
       object-fit: cover;
+      position: relative;
     }
     &__img{
       max-width: 350px;
       height: 100%;
       max-width: 100%;
+    }
+    &__condition{
+    position: absolute;
+    padding: 10px;
+    color: $white;
+    font-family: $robotoMono;
+    font-weight: 500;
+    font-size: 0.8rem;
+    right: 0;
+    bottom: 24px;
+    background: $pink;
+    border-top-left-radius: 5px;  
+    border-bottom-left-radius: 5px;  
+    }
+    &__condition p{
+      margin: 0 0 5px 0;
+    }
+    &__condition p:first-child{
+      font-weight: 700;
+      font-size: 1rem;
+    }
+    &__condition p:last-child{
+      margin: 0;
     }
 }
 .title{
