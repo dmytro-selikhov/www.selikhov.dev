@@ -1,0 +1,49 @@
+.start{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  background: $black;
+  margin-bottom: 40px;
+  &__title{
+    max-width: 100%;
+    padding: 15px;
+    font-family: $mulish;
+    font-weight: 700;
+    color:$white;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 0;
+  }
+  &__text{
+    max-width: 100%;
+    padding: 15px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    font-size: 1rem;
+    color: $white;
+    line-height: 1.4rem;
+    text-decoration: none;
+    text-align: center;
+  }
+  &__text:hover{
+    color:$pink;
+  }
+  &__btn{
+    max-width: 100%;
+    padding: 15px;
+    font-family: $mulish;
+    font-weight: 700;
+    color:$white;
+    background: $pink;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  &__btn:hover{
+    background: $black;
+    border: 1px solid $white;
+  }
+}

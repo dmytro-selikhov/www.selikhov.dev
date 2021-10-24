@@ -1,0 +1,125 @@
+.title{
+  font-family: $mulish;
+  font-weight: 700;
+  font-size: 2rem;
+  color: $black;
+  text-align: center;
+}
+.text{
+  font-family:$robotoMono;
+  font-weight: 500;
+  font-size: 1rem;
+  color: $black;
+  text-align: center;
+}
+.about{
+  margin-bottom: 40px;
+}
+.about-info{
+  margin-bottom: 25px;
+    &__cover{
+      width: 575px;
+      max-width: 100%;
+      height: 100%;
+      position: relative;
+      object-fit: cover;
+    }
+    &__years{
+      padding: 15px;
+      background-color:$pink;
+      position: absolute;
+      right: -10px;
+      bottom: 29px;
+      object-fit: cover;
+    }
+    &__title{
+      color: $white;
+      font-family: $robotoMono;
+      font-size: 0.9rem;
+    }
+    &__img{
+      width: 575px;
+      height: 100%;
+      max-width: 100%;
+    }
+    &__links{
+      display: block;
+      font-family: $robotoMono;
+      font-weight: 500;
+      color: $white;
+      font-size: 0.7rem;
+      padding: 10px 0 0 15px;
+      position: relative;
+    }
+    &__links::before{
+      content:'';
+      position: absolute;
+      background: url(../../i/arrow.svg) no-repeat;
+      top: 12px;
+      left: -2px;
+      width: 10px;
+      height: 100%;
+      max-width: 100%;
+    }
+}
+
+.bio-title{
+  font-family: $mulish;
+  color: $black;
+  font-size: 1.3rem;
+}
+#menu__sub-lg{
+  display: none;
+}
+.work-lg{
+  display: none;
+}
+.bio p{
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: $black;
+  line-height: 1.4rem;
+  margin-bottom: 25px;
+}
+.work-title{
+  font-family: $mulish;
+  color: $black;
+  font-size: 1.3rem;
+  margin-bottom: 20px; 
+}
+.work-item {
+  margin-bottom: 25px;
+  margin-right: 20px;
+  padding-left: 30px;
+  position: relative;
+    &__title{
+      font-family: $openSans;
+      font-weight: 700;
+      color: $black;
+      font-size: 0.9rem;
+    }
+    &__year{
+      font-family: $robotoMono;
+      color: $gray;
+      font-size: 0.8rem;
+    }
+}
+.work-items{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.work-item:before{
+  content:'';
+  position: absolute;
+  background: url(../../i/pc.svg) no-repeat;
+  top: 12px;
+  left: 0;
+  width: 20px;
+  height: 100%;
+  max-width: 100%;
+}
+.work-item p{
+  margin: 0 0 5px 0 ;
+}
