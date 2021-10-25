@@ -39,7 +39,7 @@
 }
 .gallery-box{
       display: grid;
-      grid-template-columns: 1fr;
+       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
       justify-items: center;
       align-items: center;
@@ -48,6 +48,10 @@
     &__item{
       object-fit: cover;
       position: relative;
+      border-radius: 5px;
+    }
+    &__item:hover{
+      box-shadow: 5px 5px $pink;
     }
     &__img{
       max-width: 350px;
